@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Reaction.iml" filepath="$PROJECT_DIR$/Reaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FBReaction.iml" filepath="$PROJECT_DIR$/FBReaction.iml" />
+      <module fileurl="file://D:\akka_first_pc\AndroidStudioProjects\FBReaction\Reaction.iml" filepath="D:\akka_first_pc\AndroidStudioProjects\FBReaction\Reaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/keyframe/keyframe.iml" filepath="$PROJECT_DIR$/keyframe/keyframe.iml" />
     </modules>

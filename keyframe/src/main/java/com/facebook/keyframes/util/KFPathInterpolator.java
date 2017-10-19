@@ -22,7 +22,7 @@ import android.view.animation.Interpolator;
 
 /**
  * This class is directly lifted from the compat library's
- * {@link android.support.v4.view.animation.PathInterpolatorCompat}.  The reason we need this class
+ * {@link //android.support.v4.view.animation.PathInterpolatorCompat}.  The reason we need this class
  * is to be able to control the precision ourselves for a smaller memory footprint.  The normal
  * PathInterpolator allocates ~1400 floats every time and holds on to this in memory for the entire
  * lifetime of the object, while this one allocates only 10% of that.  We dont need high precision

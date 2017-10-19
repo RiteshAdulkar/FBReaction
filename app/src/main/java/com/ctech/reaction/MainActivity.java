@@ -17,15 +17,16 @@ import com.ctech.reaction.widget.ReactionView;
 public class MainActivity extends AppCompatActivity {
 
   private static final String TAG = "MainActivity";
+  public static final String DEBUG = ">>DEBUG>>";
 
-  //@BindView(R.id.rvNewFeed)
+  @BindView(R.id.list)
   RecyclerView rvNewFeed;
 
-  @BindView(R.id.btReaction)
-  LinearLayout btReaction;
-
-  @BindView(R.id.root)
-  FrameLayout root;
+//  @BindView(R.id.btReaction)
+//  LinearLayout btReaction;
+//
+//  @BindView(R.id.root)
+//  FrameLayout root;
 
 
   @Override
@@ -33,17 +34,18 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
     ButterKnife.bind(this);
+    setUpRecyclerView();
 
   }
 
   private boolean scaledDown;
 
 
-  @OnClick(R.id.btReaction)
-  public void showPopup(View v){
-    ReactionView rvl = new ReactionView(this);
-    root.addView(rvl);
-  }
+//  @OnClick(R.id.btReaction)
+//  public void showPopup(View v){
+//    ReactionView rvl = new ReactionView(this);
+//    root.addView(rvl);
+//  }
 
 
 
